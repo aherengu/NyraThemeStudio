@@ -2,7 +2,7 @@
 
 A focused, lightweight visual customization extension for ChatGPT. Customize the visual appearance of ChatGPT with premium built-in dark presets or fine-tune specific interface elements with surface-level color controls.
 
-## 🚀 Features
+## Features
 
 - **Five Premium Presets**: Switch instantly between Classic Gray, Graphite, Midnight Blue, Warm Charcoal, and Slate Purple.
 - **Custom Theme Slots**: Edit, preview, and save up to 3 custom color configurations.
@@ -19,7 +19,7 @@ A focused, lightweight visual customization extension for ChatGPT. Customize the
   - Precise ChatGPT DOM targeting to avoid layout jumps or square wrapper backgrounds.
 - **Privacy First**: Fully local. No tracking, no data collection, and no remote calls.
 
-## 🛠️ Installation for Local Testing
+## Installation for Local Testing
 
 1. Clone or download this repository.
 2. Open Chrome (or Brave/Edge) and go to `chrome://extensions` (or `brave://extensions`).
@@ -27,7 +27,7 @@ A focused, lightweight visual customization extension for ChatGPT. Customize the
 4. Click **Load unpacked** and select this directory.
 5. Open [ChatGPT](https://chatgpt.com) and open the extension popup from your toolbar to apply a theme.
 
-## 📂 Build Contents
+## Build Contents
 
 - `manifest.json` - Extension manifest configuration and permissions
 - `content.js` - Injector script managing theme variables and event listeners
@@ -37,7 +37,7 @@ A focused, lightweight visual customization extension for ChatGPT. Customize the
 - `popup.js` - Popup logic, presets, theme editor, and storage coordination
 - `icons/` - Extension icons (16px, 32px, 48px, 128px)
 
-## 🎨 Using the Theme Editor
+## Using the Theme Editor
 
 1. Open the extension popup.
 2. Click **Create** or **Edit** on a custom slot to open the editor.
@@ -45,13 +45,13 @@ A focused, lightweight visual customization extension for ChatGPT. Customize the
 4. Click **Save to Custom [1-3]** to persist the configuration.
 5. Click **Disable Theme** in the footer to restore ChatGPT's default style at any time.
 
-## 🔒 Privacy Policy
+## Privacy Policy
 
 Nyra Theme Studio does not collect, sell, transmit, or share personal data. All settings and customized themes are stored locally in your browser using `chrome.storage.local`. The extension runs only on supported ChatGPT domains (`chatgpt.com` and `chat.openai.com`) to apply visual styling. It does not read, store, or transmit your conversations, account info, prompts, or browsing activity.
 
 Disclaimer: Nyra Theme Studio is an independent browser extension and is not affiliated with, endorsed by, or officially connected to OpenAI, Google, or Chrome.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
