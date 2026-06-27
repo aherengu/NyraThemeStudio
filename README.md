@@ -45,6 +45,14 @@ A focused, lightweight visual customization extension for ChatGPT. Customize the
 4. Click **Save to Custom [1-3]** to persist the configuration.
 5. Click **Disable Theme** in the footer to restore ChatGPT's default style at any time.
 
+## Permissions
+
+Nyra Theme Studio uses the minimum browser permissions needed for local theme preferences and active-tab styling:
+
+- `storage` stores theme preferences locally in your browser.
+- `activeTab` is used only when you open the popup, so the selected theme can be applied to the active supported ChatGPT tab.
+- Host access is scoped to `chatgpt.com` and `chat.openai.com` only.
+
 ## Privacy Policy
 
 Nyra Theme Studio does not collect, sell, transmit, or share personal data. All settings and customized themes are stored locally in your browser using `chrome.storage.local`. The extension runs only on supported ChatGPT domains (`chatgpt.com` and `chat.openai.com`) to apply visual styling. It does not read, store, or transmit your conversations, account info, prompts, or browsing activity.
@@ -53,12 +61,14 @@ Disclaimer: Nyra Theme Studio is an independent browser extension and is not aff
 
 ## License
 
-This project is licensed under the MIT License.
+The source code is licensed under the Apache License 2.0. See `LICENSE`.
+
+The project name, logos, icons, screenshots, visual identity, and branding assets are not included in the Apache License 2.0 grant and may not be reused without permission.
 
 ---
 
 <details>
-<summary>📋 Release History & Changelog</summary>
+<summary>Release History & Changelog</summary>
 
 ### v2.0.59
 - Slightly reduced the Midnight Blue writing-block editor brightness.
