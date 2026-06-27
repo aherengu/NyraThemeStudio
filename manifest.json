@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Nyra Theme Studio",
+  "short_name": "Nyra Theme",
+  "version": "2.0.59",
+  "description": "Dark theme presets and surface controls for ChatGPT.",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "action": {
+    "default_title": "Nyra Theme Studio",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "theme.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

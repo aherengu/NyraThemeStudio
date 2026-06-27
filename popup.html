@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nyra Theme Studio</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="brand">
+        <img src="icons/icon48.png" alt="" width="34" height="34">
+        <div>
+          <h1>Nyra Theme Studio</h1>
+          <p>Dark themes for ChatGPT</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-head">
+      <h2>Built-in Themes</h2>
+    </section>
+    <section class="presets" id="presetControls"></section>
+
+    <section class="section-head">
+      <h2>Custom Themes</h2>
+    </section>
+
+    <section class="custom-themes" id="customThemeSlots"></section>
+
+    <section class="editor is-hidden" id="customizerPanel">
+      <div class="editor-head">
+        <div>
+          <h2>Theme Editor</h2>
+          <p>Only open this when you want to build or update a custom theme.</p>
+        </div>
+      </div>
+
+      <section class="controls" id="colorControls"></section>
+
+      <div class="save-slots" id="saveSlotActions"></div>
+    </section>
+
+    <footer>
+      <button type="button" id="resetDefaults">Disable Theme</button>
+      <p id="status">Saved locally. Applies live.</p>
+    </footer>
+  </main>
+
+  <div class="loading-layer is-hidden" id="loadingLayer" aria-hidden="true">
+    <div class="loading-card">
+      <div class="loading-spinner"></div>
+      <div id="loadingText">Applying...</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
