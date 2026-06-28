@@ -1,7 +1,7 @@
 # Nyra Theme Studio
 
 A focused, lightweight visual customization extension for ChatGPT. Customize the visual appearance of ChatGPT with premium built-in dark presets or fine-tune specific interface elements with surface-level color controls.
-
+If you want, you can get from [Google Extension Store](https://chromewebstore.google.com/detail/nyra-theme-studio/nfnlmkjllildnlkpbcodfgooapoalpca)
 ## Features
 
 - **Five Premium Presets**: Switch instantly between Classic Gray, Graphite, Midnight Blue, Warm Charcoal, and Slate Purple.
